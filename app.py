@@ -67,6 +67,14 @@ header[data-testid="stHeader"] {
     color: #8ea2bf;
     font-size: 12px;
 }
+/* Keep form field and metric labels readable on the light surface. */
+label,
+[data-testid="stWidgetLabel"],
+[data-testid="stWidgetLabel"] p,
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] p {
+    color: #000000 !important;
+}
 .panel {
     background: white;
     padding: 22px;
